@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dlovan-sharif-11ab57270/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/dlovans"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://github.com/dlovans"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="mailto:dlo@dlovan.dev"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
@@ -76,8 +76,12 @@ My approach combines calm analysis with swift adaptation, allowing me to find el
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dlovans&show_icons=true&theme=tokyonight&hide_border=true" alt="Dlovan's GitHub Stats" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dlovans&layout=compact&theme=tokyonight&hide_border=true" alt="Dlovan's Top Languages" height="170">
+  <a href="https://github.com/dlovans">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=dlovans&show_icons=true&theme=tokyonight&hide_border=true" alt="Dlovan's GitHub Stats" height="170">
+  </a>
+  <a href="https://github.com/dlovans">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dlovans&layout=compact&theme=tokyonight&hide_border=true" alt="Dlovan's Top Languages" height="170">
+  </a>
 </div>
 
 ## 📫 Get in Touch
@@ -91,19 +95,21 @@ I'm always open to interesting conversations and opportunities. Feel free to rea
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=dlovans&color=6366f1&style=flat-square&label=Profile+Views" alt="Profile Views">
+  <a href="https://github.com/dlovans">
+    <img src="https://komarev.com/ghpvc/?username=dlovans&style=flat-square&color=6366f1&label=Profile+Views" alt="Profile Views">
+  </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dlovans&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats">
+  <a href="https://github.com/dlovans">
+    <img src="https://github-readme-streak-stats-sigma-five.vercel.app/?user=dlovans&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats">
+  </a>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dlovans&theme=nord&column=7&no-frame=true&no-bg=true" alt="GitHub Trophies">
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dlovans&theme=tokyo-night&hide_border=true" alt="Contribution Graph">
+  <a href="https://github.com/dlovans">
+    <img src="https://github-profile-trophy.vercel.app/?username=dlovans&theme=nord&column=7&no-frame=true&no-bg=true" alt="GitHub Trophies">
+  </a>
 </div>
 
 <div align="center">
