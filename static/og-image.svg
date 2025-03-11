@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background with gradient -->
+  <rect width="1200" height="630" fill="#0f172a" />
+  
+  <!-- Gradient overlay -->
+  <rect width="1200" height="630" fill="url(#gradient)" opacity="0.2" />
+  
+  <!-- Define gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo/Avatar -->
+  <circle cx="300" cy="315" r="150" fill="url(#gradient)" />
+  <text x="300" y="315" font-family="Arial, sans-serif" font-size="150" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">D</text>
+  
+  <!-- Text content -->
+  <text x="700" y="250" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" text-anchor="middle">Dlovan</text>
+  <text x="700" y="350" font-family="Arial, sans-serif" font-size="40" fill="#a5b4fc" text-anchor="middle">AI-Augmented Web Developer</text>
+  <text x="700" y="420" font-family="Arial, sans-serif" font-size="30" fill="#94a3b8" text-anchor="middle">Full-Stack Development • AI Integration • Startup Ventures</text>
+</svg> 

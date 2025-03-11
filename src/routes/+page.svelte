@@ -385,7 +385,33 @@
   <title>{name} | {title}</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <meta name="description" content="Portfolio of {name}, an AI-augmented web developer based in {location}">
+  
+  <!-- Enhanced SEO Meta Tags -->
+  <meta name="description" content="Portfolio of {name}, an AI-augmented web developer based in {location} specializing in full-stack development, AI integration, and startup ventures.">
+  <meta name="keywords" content="web developer, AI integration, full-stack development, startup ventures, {location}, portfolio, JavaScript, Svelte, Firebase, Node.js">
+  <meta name="author" content="{name}">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dlovan.dev/">
+  <meta property="og:title" content="{name} | {title}">
+  <meta property="og:description" content="Portfolio of {name}, an AI-augmented web developer based in {location} specializing in full-stack development, AI integration, and startup ventures.">
+  <meta property="og:image" content="/og-image.svg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://dlovan.dev/">
+  <meta property="twitter:title" content="{name} | {title}">
+  <meta property="twitter:description" content="Portfolio of {name}, an AI-augmented web developer based in {location} specializing in full-stack development, AI integration, and startup ventures.">
+  <meta property="twitter:image" content="/og-image.svg">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://dlovan.dev/">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="/favicon.png">
+  
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     
