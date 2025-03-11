@@ -224,70 +224,48 @@
   // Projects data
   const projects = [
     {
-      title: "AI-Enhanced E-commerce Platform",
-      shortDescription: "A modern e-commerce solution with AI-powered product recommendations and customer insights.",
-      longDescription: "This AI-driven e-commerce platform uses sophisticated algorithms to analyze user behavior and provide personalized product recommendations. The system continuously learns from user interactions to improve the shopping experience and increase conversion rates. Built with a scalable architecture to handle high traffic loads.",
-      technologies: ["React", "Node.js", "MongoDB", "TensorFlow.js"],
-      image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
-      githubUrl: "https://github.com/dlovan/ai-ecommerce",
-      productUrl: "https://ai-ecommerce-demo.netlify.app"
+      title: "Alentra",
+      shortDescription: "AI-powered job platform matching employees and employers based on qualitative data analysis.",
+      longDescription: "Alentra is an innovative job platform that uses artificial intelligence to match potential employees with employers. The AI analyzes qualitative data from both parties to determine match degree, going beyond traditional keyword matching to create more meaningful connections in the job market.",
+      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS"],
+      productUrl: "https://www.alentra.app",
+      image: "/alentra.png"
     },
     {
-      title: "Smart Property Management System",
-      shortDescription: "A comprehensive solution for property managers with automated workflows and tenant communication.",
-      longDescription: "This property management system streamlines the entire rental process from tenant applications to maintenance requests. It features automated rent collection, intelligent maintenance scheduling, and a tenant portal for seamless communication. The dashboard provides property owners with real-time insights into their portfolio performance.",
-      technologies: ["Vue.js", "Express", "PostgreSQL", "Docker"],
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=773&q=80",
-      githubUrl: "https://github.com/dlovan/property-management",
-      productUrl: "https://smart-property-sys.herokuapp.com"
+      title: "Axentra",
+      shortDescription: "Web agency specializing in rapid MVP development for Swedish startups.",
+      longDescription: "Axentra is my web agency tailored specifically for startups in Sweden looking for rapid MVP development. We focus on helping early-stage companies validate their ideas quickly with functional prototypes and scalable web applications, providing the technical expertise needed to bring innovative concepts to market.",
+      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS"],
+      githubUrl: "https://github.com/dlovans/axentra",
+      productUrl: "https://www.axentra.agency",
+      image: "/axentra.png"
     },
     {
-      title: "Sustainable Supply Chain Tracker",
-      shortDescription: "Blockchain-based solution for tracking product origins and ensuring ethical sourcing.",
-      longDescription: "This blockchain-based solution revolutionizes supply chain transparency. It tracks products from source to consumer, verifying ethical sourcing and sustainable practices. Companies can prove their commitment to environmental standards while consumers gain insight into product origins.",
-      technologies: ["Svelte", "Ethereum", "Node.js", "AWS"],
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      title: "TerraTide",
+      shortDescription: "iOS app for casual and spontaneous meetups - 'Meetup on steroids'.",
+      longDescription: "TerraTide is an iOS application designed to be 'Meetup on steroids', facilitating casual and spontaneous gatherings. The app makes it easier for people to connect in real-time for activities, removing the barriers of traditional event planning and enabling more organic social interactions.",
+      technologies: ["Swift", "SwiftUI", "Firebase", "CoreLocation"],
+      githubUrl: "https://github.com/dlovans/terratide",
+      productUrl: "https://www.terratide.app",
+      image: "/terratide.png"
     },
     {
-      title: "Mindful Productivity App",
-      shortDescription: "A minimalist productivity tool that helps users maintain focus while promoting mental wellbeing.",
-      longDescription: "This mindfulness-focused productivity application balances efficiency with mental wellbeing. It combines task management with guided meditation breaks, focus timers, and accomplishment reflections. The app's minimalist design eliminates distractions while AI-powered insights help users understand their productivity patterns.",
-      technologies: ["React Native", "Firebase", "TensorFlow"],
-      image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      title: "Salsabeel",
+      shortDescription: "Religious web app for studying verses through topic creation, collection, and analysis.",
+      longDescription: "Salsabeel is a religious web application that facilitates the study of verses by allowing users to create topics, collect relevant verses, and analyze them. This structured approach helps users gain deeper insights into religious texts by organizing content thematically and enabling comparative study.",
+      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Python"],
+      githubUrl: "https://github.com/dlovans/sirius",
+      productUrl: "https://www.salsabeel.app",
+      image: "/salsabeel.png"
     },
     {
-      title: "AI-Powered Content Generator",
-      shortDescription: "An intelligent platform that creates high-quality, SEO-optimized content for various industries.",
-      longDescription: "This AI content generator uses advanced natural language processing to create engaging, original content tailored to specific industries and audiences. The platform includes tools for SEO optimization, tone adjustment, and multilingual support. Content marketers can generate blog posts, social media content, and product descriptions in seconds.",
-      technologies: ["Python", "TensorFlow", "React", "FastAPI"],
-      image: "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-      githubUrl: "https://github.com/dlovan/ai-content-generator",
-      productUrl: "https://ai-content-gen.vercel.app"
-    },
-    {
-      title: "Virtual Reality Fitness Trainer",
-      shortDescription: "An immersive VR fitness experience with personalized workout routines and real-time feedback.",
-      longDescription: "This VR fitness application transforms exercise into an engaging experience with gamified workouts and virtual environments. The system uses motion tracking to analyze form and provide real-time corrections. Users can choose from various workout styles, difficulty levels, and virtual locations while competing with friends or the global community.",
-      technologies: ["Unity", "C#", "WebXR", "TensorFlow.js"],
-      image: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80",
-      githubUrl: "https://github.com/dlovan/vr-fitness"
-    },
-    {
-      title: "Decentralized Finance Dashboard",
-      shortDescription: "A comprehensive DeFi platform for managing crypto assets, yield farming, and liquidity pools.",
-      longDescription: "This DeFi dashboard provides a unified interface for managing cryptocurrency assets across multiple blockchains and protocols. Users can track portfolio performance, participate in yield farming, and manage liquidity positions. The platform includes advanced analytics, gas optimization, and risk assessment tools to maximize returns while minimizing exposure.",
-      technologies: ["React", "Solidity", "Web3.js", "The Graph"],
-      image: "https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
-      productUrl: "https://defi-dashboard-demo.netlify.app"
-    },
-    {
-      title: "Smart Home Energy Monitor",
-      shortDescription: "IoT-based system for tracking and optimizing home energy consumption with AI recommendations.",
-      longDescription: "This smart home energy monitoring system uses IoT sensors to track electricity usage at the device level. The AI-powered analytics engine identifies energy waste, suggests optimization strategies, and can automatically control smart devices to reduce consumption during peak pricing periods. The mobile app provides real-time insights and notifications to help homeowners save money and reduce their carbon footprint.",
-      technologies: ["React Native", "Node.js", "TensorFlow", "MQTT"],
-      image: "https://images.unsplash.com/photo-1558002038-1055e2e28ed1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      githubUrl: "https://github.com/dlovan/energy-monitor",
-      productUrl: "https://smart-energy-monitor.app"
+      title: "Aquity",
+      shortDescription: "Paused web app project using LLM AI to analyze stocks for long-term investment decisions.",
+      longDescription: "Aquity is an indefinitely paused web application that was designed to leverage Large Language Model AI to analyze stocks and provide data to users for making long-term investment decisions. The concept aimed to democratize sophisticated financial analysis, making it accessible to individual investors.",
+      technologies: ["EJS", "JavaScript", "Node.js", "Express", "MongoDB", "Mongoose", "CSS"],
+      githubUrl: "https://github.com/dlovans/quant",
+      productUrl: "https://aquity.onrender.com",
+      image: "/aquity.png"
     }
   ];
   
@@ -1052,7 +1030,7 @@
           <a href="#projects" class="badge"><span class="mr-2">🚀</span> Full-Stack Development</a>
           <a href="#contact" class="badge"><span class="mr-2">🤖</span> AI Integration</a>
           <a href="#about" class="badge"><span class="mr-2">⚡</span> Performance Optimization</a>
-          <a href="#about" class="badge"><span class="mr-2">🎨</span> UI/UX Design</a>
+          <a href="#about" class="badge"><span class="mr-2">💼</span> Startup Ventures</a>
         </div>
         
         <div class="flex flex-wrap justify-center lg:justify-start gap-6 slide-up" style="animation-delay: 1.2s">
@@ -1112,19 +1090,15 @@
     <!-- Stats -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 lg:mt-24 mb-6 relative z-10 slide-up" style="animation-delay: 1.6s">
       <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
-        <div class="text-3xl font-bold text-white mb-1">4+</div>
+        <div class="text-3xl font-bold text-white mb-1">{new Date().getFullYear() - 2022}+</div>
         <div class="text-indigo-200/70 text-sm">Years Experience</div>
       </div>
       <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
-        <div class="text-3xl font-bold text-white mb-1">50+</div>
+        <div class="text-3xl font-bold text-white mb-1">{projects.length}+</div>
         <div class="text-indigo-200/70 text-sm">Projects Completed</div>
       </div>
       <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
-        <div class="text-3xl font-bold text-white mb-1">20+</div>
-        <div class="text-indigo-200/70 text-sm">Happy Clients</div>
-      </div>
-      <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
-        <div class="text-3xl font-bold text-white mb-1">10+</div>
+        <div class="text-3xl font-bold text-white mb-1">{activeTools.length + graveyardTools.length}+</div>
         <div class="text-indigo-200/70 text-sm">Technologies</div>
       </div>
     </div>
@@ -1345,7 +1319,7 @@
 
       <!-- Projects Grid -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 mt-12" transition:fly={{ y: 40, duration: 800, delay: 400 }}>
-        {#each projects as project, i}
+        {#each projects.slice(0, 8) as project, i}
           <div 
             class="transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1"
             style="animation-delay: {i * 0.1}s" 
@@ -1411,10 +1385,10 @@
           <div class="mt-8 pt-6 border-t border-indigo-800/20">
             <h4 class="text-lg font-medium text-indigo-200 mb-3">Current Focus</h4>
             <div class="flex flex-wrap gap-2">
-              <div class="px-3 py-1 bg-indigo-900/30 rounded-full text-indigo-300 text-sm border border-indigo-700/20">AI Integration</div>
-              <div class="px-3 py-1 bg-indigo-900/30 rounded-full text-indigo-300 text-sm border border-indigo-700/20">Web Performance</div>
-              <div class="px-3 py-1 bg-indigo-900/30 rounded-full text-indigo-300 text-sm border border-indigo-700/20">Serverless Architecture</div>
-              <div class="px-3 py-1 bg-indigo-900/30 rounded-full text-indigo-300 text-sm border border-indigo-700/20">Startup Ventures</div>
+              <div class="badge"><span class="mr-2">🤖</span> AI Integration</div>
+              <div class="badge"><span class="mr-2">⚡</span> Web Performance</div>
+              <div class="badge"><span class="mr-2">☁️</span> Serverless Architecture</div>
+              <div class="badge"><span class="mr-2">💼</span> Startup Ventures</div>
             </div>
           </div>
           
@@ -1502,13 +1476,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                contact@example.com
-              </p>
-              <p class="text-indigo-200/70 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                +46 123 456 789
+                <a href="mailto:dlo@dlovan.dev" class="hover:text-indigo-300 transition-colors">dlo@dlovan.dev</a>
               </p>
             </div>
             
@@ -1519,10 +1487,32 @@
                 </svg>
               </a>
               <a href="https://github.com/dlovans" aria-label="GitHub" class="text-indigo-300/70 hover:text-indigo-300 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.756.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                <!-- Updated GitHub icon with a more reliable implementation -->
+                <svg class="h-6 w-6" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
                 </svg>
               </a>
+            </div>
+          </div>
+          
+          <div class="section-overlay p-6" transition:scale={{ start: 0.95, duration: 500, delay: 1000, easing: backOut }}>
+            <h3 class="text-xl font-semibold mb-4 text-indigo-200">Startup Ventures</h3>
+            <p class="text-indigo-100/80 mb-4">
+              Interested in starting a venture together? Let's build something amazing!
+            </p>
+            <div class="space-y-4">
+              <p class="text-indigo-200/70 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                </svg>
+                <a href="https://www.axentra.agency" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-300 transition-colors">www.axentra.agency</a>
+              </p>
+              <p class="text-indigo-200/70 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <a href="mailto:dlovan@axentra.agency" class="hover:text-indigo-300 transition-colors">dlovan@axentra.agency</a>
+              </p>
             </div>
           </div>
         </div>
