@@ -141,7 +141,7 @@
     },
     {
       name: "Next.js",
-      icon: "devicon-nextjs-original",
+      icon: "devicon-nextjs-original-wordmark colored",
       description: "Experimented with this React framework before moving to SvelteKit.",
       startYear: 2023,
       endYear: 2023,
