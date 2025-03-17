@@ -229,6 +229,7 @@
       longDescription: "Vevra is a mission-driven community platform that encourages users to take meaningful action towards shared goals. The platform features activities tracking, live chat functionality, and hierarchical project management tools that help communities organize and execute their missions effectively. By focusing on actionable steps, Vevra transforms passive community members into active contributors.",
       technologies: ["SvelteKit", "Node.js", "Firebase", "Go", "TailwindCSS"],
       image: "/vevra.png",
+      productUrl: "https://vevra.onrender.com",
       isWip: true
     },
     {
@@ -254,7 +255,6 @@
       shortDescription: "iOS app for casual and spontaneous meetups - 'Meetup on steroids'.",
       longDescription: "TerraTide is an iOS application designed to be 'Meetup on steroids', facilitating casual and spontaneous gatherings. The app makes it easier for people to connect in real-time for activities, removing the barriers of traditional event planning and enabling more organic social interactions.",
       technologies: ["Swift", "SwiftUI", "Firebase", "CoreLocation"],
-      githubUrl: "https://github.com/dlovans/terratide",
       productUrl: "https://www.terratide.app",
       image: "/terratide.png"
     },
