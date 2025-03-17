@@ -224,12 +224,21 @@
   // Projects data
   const projects = [
     {
+      title: "Vevra",
+      shortDescription: "Community building platform centered around missions that push users to take action.",
+      longDescription: "Vevra is a mission-driven community platform that encourages users to take meaningful action towards shared goals. The platform features activities tracking, live chat functionality, and hierarchical project management tools that help communities organize and execute their missions effectively. By focusing on actionable steps, Vevra transforms passive community members into active contributors.",
+      technologies: ["SvelteKit", "Node.js", "Firebase", "Go", "TailwindCSS"],
+      image: "/vevra.png",
+      isWip: true
+    },
+    {
       title: "Alentra",
       shortDescription: "AI-powered job platform matching employees and employers based on qualitative data analysis.",
       longDescription: "Alentra is an innovative job platform that uses artificial intelligence to match potential employees with employers. The AI analyzes qualitative data from both parties to determine match degree, going beyond traditional keyword matching to create more meaningful connections in the job market.",
       technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS"],
       productUrl: "https://www.alentra.app",
-      image: "/alentra.png"
+      image: "/alentra.png",
+      isWip: true
     },
     {
       title: "Axentra",
@@ -1359,6 +1368,7 @@
               githubUrl={project.githubUrl}
               productUrl={project.productUrl}
               image={project.image}
+              isWip={project.isWip}
             />
           </div>
         {/each}
