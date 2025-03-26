@@ -83,14 +83,7 @@
       name: "JavaScript",
       icon: "devicon-javascript-plain",
       description: "The bread & butter of web dev. My trusty sidekick.",
-      startYear: 2022,
-      level: "advanced"
-    },
-    {
-      name: "HTML/CSS",
-      icon: "devicon-html5-plain",
-      description: "The foundation of the web. Crafting structured, accessible content and beautiful styles.",
-      startYear: 2022,
+      startYear: 2021,
       level: "advanced"
     },
     {
@@ -112,21 +105,21 @@
       icon: "devicon-svelte-plain",
       description: "The new cool kid on the block that's actually really impressive.",
       startYear: 2024,
-      level: "intermediate"
+      level: "advanced"
     },
     {
       name: "Node.js",
       icon: "devicon-nodejs-plain-wordmark colored",
       description: "Powering my servers since forever. Old reliable.",
-      startYear: 2022,
+      startYear: 2021,
       level: "intermediate"
     },
     {
-      name: "Go",
-      icon: "devicon-go-original-wordmark colored",
-      description: "Exploring this powerful language for backend development and microservices.",
-      startYear: 2024,
-      level: "beginner"
+      name: "Python",
+      icon: "devicon-python-plain",
+      description: "Versatile language for data processing, automation, and backend development.",
+      startYear: 2023,
+      level: "intermediate"
     }
   ];
   
@@ -148,19 +141,19 @@
       level: "beginner"
     },
     {
-      name: "Python",
-      icon: "devicon-python-plain",
-      description: "Powerful for data and automation, but not my current focus.",
-      startYear: 2023,
-      endYear: 2023,
+      name: "TypeScript",
+      icon: "devicon-typescript-plain",
+      description: "Great for type safety, but sticking with vanilla JS for now. TypeScript is for n00bs anyway.",
+      startYear: 2024,
+      endYear: 2024,
       level: "beginner"
     },
     {
-      name: "TypeScript",
-      icon: "devicon-typescript-plain",
-      description: "Great for type safety, but sticking with vanilla JS for now.",
-      startYear: 2024,
-      endYear: 2024,
+      name: "Go",
+      icon: "devicon-go-original-wordmark colored",
+      description: "Brief exploration of this powerful language for backend development and microservices.",
+      startYear: 2025,
+      endYear: 2025,
       level: "beginner"
     },
     {
@@ -227,7 +220,7 @@
       title: "Vevra",
       shortDescription: "Community building platform centered around missions that push users to take action.",
       longDescription: "Vevra is a mission-driven community platform that encourages users to take meaningful action towards shared goals. The platform features activities tracking, live chat functionality, and hierarchical project management tools that help communities organize and execute their missions effectively. By focusing on actionable steps, Vevra transforms passive community members into active contributors.",
-      technologies: ["SvelteKit", "Node.js", "Firebase", "Go", "TailwindCSS"],
+      technologies: ["SvelteKit", "Node.js", "Firebase", "TailwindCSS"],
       image: "/vevra.png",
       productUrl: "https://vevra.onrender.com",
       isWip: true
