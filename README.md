@@ -71,17 +71,6 @@ My approach combines calm analysis with swift adaptation, allowing me to find el
   </table>
 </div>
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <a href="https://github.com/dlovans">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=dlovans&show_icons=true&theme=tokyonight&hide_border=true" alt="Dlovan's GitHub Stats" height="170">
-  </a>
-  <a href="https://github.com/dlovans">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dlovans&layout=compact&theme=tokyonight&hide_border=true" alt="Dlovan's Top Languages" height="170">
-  </a>
-</div>
-
 ## 📫 Get in Touch
 
 I'm always open to interesting conversations and opportunities. Feel free to reach out!
