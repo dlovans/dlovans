@@ -22,13 +22,11 @@ My approach combines calm analysis with swift adaptation, allowing me to find el
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
 </p>
 
 ## 🌟 Skills
@@ -71,17 +69,6 @@ My approach combines calm analysis with swift adaptation, allowing me to find el
       <td>Translating complex technical concepts into clear language that resonates with diverse audiences.</td>
     </tr>
   </table>
-</div>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <a href="https://github.com/dlovans">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=dlovans&show_icons=true&theme=tokyonight&hide_border=true" alt="Dlovan's GitHub Stats" height="170">
-  </a>
-  <a href="https://github.com/dlovans">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dlovans&layout=compact&theme=tokyonight&hide_border=true" alt="Dlovan's Top Languages" height="170">
-  </a>
 </div>
 
 ## 📫 Get in Touch
