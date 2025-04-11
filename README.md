@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Dlovan
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=AI-Augmented+Web+Developer;Full-Stack+Developer;UI%2FUX+Enthusiast;Problem+Solver" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=Code+Wizard+in+Training;Bug+Whisperer;Ctrl%2BZ+Power+User;Professional+Googler" alt="Typing SVG" />
 </div>
 
 <p align="center">
@@ -12,13 +12,13 @@
 
 ## 🚀 About Me
 
-I'm an AI-Augmented Web Developer based in Stockholm, Sweden, crafting elegant digital solutions with a calm, analytical approach. Since 2022, I've been navigating the intersection of AI and web development, creating solutions that blend technical excellence with practical business value.
+I'm a slightly caffeinated web developer from Stockholm, Sweden, who occasionally convinces computers to do what I want. When I'm not fighting with CSS or talking to rubber ducks about my code, I'm exploring how to make AI do my job for me (don't tell my boss).
 
-My approach combines calm analysis with swift adaptation, allowing me to find elegant solutions to complex problems. I believe in observing before acting, listening before speaking, and understanding before implementing.
+My superpower is turning coffee into code while maintaining a straight face when clients ask for "minor changes" that require rebuilding the entire application. I've been known to high-five my screen when tests pass on the first try.
 
-> "Finding order in chaos, solutions in problems."
+> "If at first you don't succeed, call it version 1.0"
 
-## 💻 Tech Stack
+## 💻 Tech Stack (Things I Google Daily)
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -36,44 +36,44 @@ My approach combines calm analysis with swift adaptation, allowing me to find el
     <tr>
       <td align="center">
         <span style="font-size: 25px;">🧩</span>
-        <br>Problem Solving
+        <br>Problem Creating
       </td>
-      <td>Finding elegant solutions to complex challenges through analytical thinking and creative approaches.</td>
+      <td>Making two new bugs while fixing one. It's called job security.</td>
     </tr>
     <tr>
       <td align="center">
         <span style="font-size: 25px;">🔄</span>
         <br>Adaptability
       </td>
-      <td>Embracing change and pivoting strategies when needed, always staying ahead of the technology curve.</td>
+      <td>Seamlessly switching between "I know what I'm doing" and "What am I doing?" multiple times per hour.</td>
     </tr>
     <tr>
       <td align="center">
         <span style="font-size: 25px;">🔭</span>
         <br>Technical Vision
       </td>
-      <td>Building systems with scalability and maintainability in mind, focusing on long-term success.</td>
+      <td>Predicting which part of my code will break next with surprising accuracy.</td>
     </tr>
     <tr>
       <td align="center">
         <span style="font-size: 25px;">💡</span>
-        <br>Entrepreneurial Mindset
+        <br>Creative Excuses
       </td>
-      <td>Identifying opportunities and creating value through innovative solutions and strategic thinking.</td>
+      <td>Expertly explaining why that feature will take two weeks instead of two days.</td>
     </tr>
     <tr>
       <td align="center">
         <span style="font-size: 25px;">📢</span>
         <br>Communication
       </td>
-      <td>Translating complex technical concepts into clear language that resonates with diverse audiences.</td>
+      <td>Nodding confidently while thinking "I have no idea what they're talking about."</td>
     </tr>
   </table>
 </div>
 
-## 📫 Get in Touch
+## 📫 Get in Touch (If You Dare)
 
-I'm always open to interesting conversations and opportunities. Feel free to reach out!
+Want to discuss the existential crisis of semicolons in JavaScript? I'm your person!
 
 - 📧 Email: [dlo@dlovan.dev](mailto:dlo@dlovan.dev)
 - 💼 LinkedIn: [dlovan-sharif](https://www.linkedin.com/in/dlovan-sharif-11ab57270/)
@@ -100,5 +100,5 @@ I'm always open to interesting conversations and opportunities. Feel free to rea
 </div>
 
 <div align="center">
-  <span style="font-size: 60px;">❤️</span>
+  <span style="font-size: 60px;">🤪</span>
 </div>
