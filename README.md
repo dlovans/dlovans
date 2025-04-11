@@ -12,9 +12,9 @@
 
 ## 🚀 About Me
 
-I'm a slightly caffeinated web developer from Stockholm, Sweden, who occasionally convinces computers to do what I want. When I'm not fighting with CSS or talking to rubber ducks about my code, I'm exploring how to make AI do my job for me (don't tell my boss).
+I'm a web developer from Stockholm, Sweden, who occasionally convinces computers to do what I want. When I'm not fighting with CSS or talking to rubber ducks about my code, I'm exploring how to make AI do my job for me.
 
-My superpower is turning coffee into code while maintaining a straight face when clients ask for "minor changes" that require rebuilding the entire application. I've been known to high-five my screen when tests pass on the first try.
+My superpower is turning ideas into code while maintaining a straight face when clients ask for "minor changes" that require rebuilding the entire application. I've been known to high-five my screen when tests pass on the first try.
 
 > "If at first you don't succeed, call it version 1.0"
 
@@ -24,6 +24,7 @@ My superpower is turning coffee into code while maintaining a straight face when
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />

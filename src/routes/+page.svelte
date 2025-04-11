@@ -1039,7 +1039,7 @@
       <div class="max-w-2xl text-center lg:text-left">
         <div class="inline-block mb-4 px-4 py-1 rounded-full bg-indigo-900/30 border border-indigo-500/30">
           <p class="text-sm text-indigo-300 pop-in" style="animation-delay: 0.2s">
-            <span class="mr-2">👋</span> Yeah, I build stuff
+            <span class="mr-2">👋</span>I build stuff
           </p>
         </div>
         <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 animated-gradient-text pop-in" style="animation-delay: 0.4s">
@@ -1049,20 +1049,21 @@
           <p class="text-xl md:text-2xl text-indigo-200 pop-in" style="animation-delay: 0.6s">{title}</p>
         </div>
         <p class="text-lg text-indigo-100/80 max-w-xl mx-auto lg:mx-0 mb-6 slide-up" style="animation-delay: 0.8s">
-          I make web stuff that works. Clean code, minimal nonsense. If it breaks, I'll fix it. If it doesn't — then I did my job right.
+          I turn ideas into code and occasionally convince computers to do what I want. 
+          When I'm not fighting with CSS, I'm explaining to clients why their "small change" will take a week.
         </p>
         
         <div class="mb-8 slide-up" style="animation-delay: 1s">
-          <a href="#projects" class="badge"><span class="mr-2">🚀</span> Full-Stack Development</a>
-          <a href="#contact" class="badge"><span class="mr-2">🤖</span> AI Integration</a>
-          <a href="#about" class="badge"><span class="mr-2">⚡</span> Performance Optimization</a>
-          <a href="#about" class="badge"><span class="mr-2">💼</span> Startup Ventures</a>
+          <a href="#projects" class="badge"><span class="mr-2">🚀</span> Keyboard Smashing</a>
+          <a href="#contact" class="badge"><span class="mr-2">🤖</span> AI Prompt Engineering</a>
+          <a href="#about" class="badge"><span class="mr-2">⚡</span> Error Message Reading</a>
+          <a href="#about" class="badge"><span class="mr-2">💼</span> Professional Excuse-Making</a>
         </div>
         
         <div class="flex flex-wrap justify-center lg:justify-start gap-6 slide-up" style="animation-delay: 1.2s">
           <a href="#projects" class="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#0f172a] shadow-lg shadow-indigo-600/20 glowing-btn">
             <span class="flex items-center">
-              <span>View Projects</span>
+              <span>See My Bugs</span>
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
@@ -1117,15 +1118,15 @@
     <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 lg:mt-24 mb-6 relative z-10 slide-up" style="animation-delay: 1.6s">
       <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
         <div class="text-3xl font-bold text-white mb-1">{new Date().getFullYear() - 2022}+</div>
-        <div class="text-indigo-200/70 text-sm">Years Experience</div>
+        <div class="text-indigo-200/70 text-sm">Years of Pretending</div>
       </div>
       <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
         <div class="text-3xl font-bold text-white mb-1">{projects.length}+</div>
-        <div class="text-indigo-200/70 text-sm">Projects Shipped</div>
+        <div class="text-indigo-200/70 text-sm">Semi-Working Projects</div>
       </div>
       <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
         <div class="text-3xl font-bold text-white mb-1">{activeTools.length + graveyardTools.length}+</div>
-        <div class="text-indigo-200/70 text-sm">Tech I've Touched</div>
+        <div class="text-indigo-200/70 text-sm">Tools I've Prompt-Engineered</div>
       </div>
     </div>
   </div>
@@ -1194,12 +1195,12 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
     {#if techSectionVisible}
       <div class="max-w-3xl mx-auto text-center tech-header mb-12" transition:fly={{ y: 30, duration: 800, delay: 200 }}>
-        <p class="text-sm font-medium text-indigo-400 mb-2 uppercase tracking-wider">My Toolbox</p>
+        <p class="text-sm font-medium text-indigo-400 mb-2 uppercase tracking-wider">My Digital Weapons</p>
         <h2 class="text-3xl md:text-4xl font-bold mb-4 animated-gradient-text">
-          <span class="tech-section-highlight">Tech I Actually Use</span>
+          <span class="tech-section-highlight">Tech I Pretend to Understand</span>
         </h2>
         <p class="text-indigo-100/70 max-w-2xl mx-auto">
-          Not what looks good on resumes. These are the tools I reach for when work needs to get done.
+          Documentation? Who reads that? These are the tools I use after asking AI to explain them to me.
         </p>
       </div>
     
@@ -1208,7 +1209,7 @@
         <div class="flex items-center justify-center md:justify-start mb-10">
           <h3 class="text-2xl font-semibold tech-section-title inline-flex items-center">
             <span class="text-green-400 mr-2">●</span> 
-            <span class="animated-gradient-text">Daily Drivers</span>
+            <span class="animated-gradient-text">Current Obsessions</span>
           </h3>
         </div>
       
@@ -1245,8 +1246,8 @@
         >
           <div class="flex items-center">
             <span class="text-gray-500 mr-2">○</span> 
-            <span class="text-gray-300 font-semibold">The Tool Graveyard</span>
-            <span class="ml-2 text-sm text-gray-400">(Tools I've tried and ditched)</span>
+            <span class="text-gray-300 font-semibold">Tech Breakup Stories</span>
+            <span class="ml-2 text-sm text-gray-400">(It's not you, it's me... actually, it's you)</span>
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               class="h-5 w-5 ml-3 text-gray-400 toggle-icon {isGraveyardExpanded ? 'expanded' : ''}" 
@@ -1334,12 +1335,12 @@
     <!-- Section Header -->
     {#if projectsVisible}
       <div class="max-w-3xl mx-auto text-center tech-header mb-16" transition:fly={{ y: 30, duration: 800, delay: 200 }}>
-        <p class="text-sm font-medium text-indigo-400 mb-2 uppercase tracking-wider">Stuff I Made</p>
+        <p class="text-sm font-medium text-indigo-400 mb-2 uppercase tracking-wider">My Digital Children</p>
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
-          <span class="tech-section-highlight">Projects Worth Mentioning</span>
+          <span class="tech-section-highlight">Stuff I Built That Almost Works</span>
         </h2>
         <p class="text-indigo-100/70 max-w-2xl mx-auto">
-          Built on my terms, with purpose. No portfolio fillers here.
+          60% of the time, they work every time. No refunds.
         </p>
       </div>
 
@@ -1395,32 +1396,31 @@
         <div transition:fly={{ y: 30, duration: 800, delay: 200 }}>
           <h2 class="text-3xl md:text-4xl font-bold mb-8 animated-gradient-text">About Me</h2>
           <p class="text-indigo-100/80 mb-6 leading-relaxed">
-            Been writing code since 2022. Not trying to impress anyone with how long I've been doing this — 
-            quality over seniority. I build things that work, not things that look good on GitHub.
+            Coding since 2022, which in tech years makes me either a baby or a genius, depending on whom you ask.
+            I prefer "experienced enough to be dangerous" as my LinkedIn headline.
           </p>
           <p class="text-indigo-100/80 mb-6 leading-relaxed">
-            Based in {location}, running a web agency and launching projects when I feel like it. 
-            I don't overthink or over-engineer. Just identify the problem and solve it efficiently.
+            Based in {location}, where I run a web agency between existential crises and debugging sessions. 
+            I build MVPs faster than you can say "scope creep" and occasionally launch projects when the stars align.
           </p>
           <p class="text-indigo-100/80 mb-6 leading-relaxed">
-            I don't waste time trying to prove I'm the smartest person in the room. 
-            I listen more than I talk. If your idea is better than mine, I'll use it.
-            Simple as that.
+            My AI assistant writes 90% of my code while I take all the credit. I've mastered the art of 
+            crafting perfect prompts and convincing myself I fully understand what the generated code does.
           </p>
           
           <div class="mt-8 pt-6 border-t border-indigo-800/20">
-            <h4 class="text-lg font-medium text-indigo-200 mb-3">Current Focus</h4>
+            <h4 class="text-lg font-medium text-indigo-200 mb-3">Current Distractions</h4>
             <div class="flex flex-wrap gap-2">
-              <div class="badge"><span class="mr-2">🤖</span> AI Integration</div>
-              <div class="badge"><span class="mr-2">⚡</span> Web Performance</div>
-              <div class="badge"><span class="mr-2">☁️</span> Serverless Architecture</div>
-              <div class="badge"><span class="mr-2">💼</span> Startup Ventures</div>
+              <div class="badge"><span class="mr-2">🤖</span> Teaching AI to Do My Job</div>
+              <div class="badge"><span class="mr-2">⚡</span> Making Slow Sites Less Slow</div>
+              <div class="badge"><span class="mr-2">☁️</span> Moving Stuff to "The Cloud"</div>
+              <div class="badge"><span class="mr-2">💼</span> Pretending to Be an Entrepreneur</div>
             </div>
           </div>
           
           <div class="flex items-center mt-8">
             <div class="mr-4 h-1 w-12 bg-gradient-to-r from-indigo-500 to-purple-500"></div>
-            <p class="text-indigo-200/70 italic">"Simple solutions to complex problems. No nonsense included."</p>
+            <p class="text-indigo-200/70 italic">"If it works on my machine, that's good enough."</p>
           </div>
           
           <p class="text-xs text-indigo-300/50 mt-12 italic">
@@ -1432,23 +1432,65 @@
           <h3 class="text-2xl font-semibold mb-8 animated-gradient-text">My Universe of Skills</h3>
           
           <div class="space-y-8">
-            {#each ['Problem Solving', 'Adaptability', 'Technical Vision', 'Entrepreneurial Mindset', 'Communication'] as skill, i}
-              <div class="skill-constellation" transition:scale={{ start: 0.9, duration: 500, delay: 600 + (i * 150), easing: backOut }}>
-                <div class="flex justify-between items-center mb-3">
-                  <span class="text-indigo-100 font-medium">{skill}</span>
-                  <span class="text-xs text-indigo-300 bg-indigo-900/40 px-2 py-1 rounded-full">
-                    {i === 0 ? 'I make it work' : i === 1 ? 'I figure it out' : i === 2 ? 'I see the path' : i === 3 ? 'I ship it' : 'I keep it simple'}
-                  </span>
-                </div>
-                <p class="text-indigo-200/70 text-sm">
-                  {i === 0 ? 'I don\'t overcomplicate things. Find the issue, fix it, move on. No need for a dissertation on every bug.' : 
-                   i === 1 ? 'New tech? Give me a day. New framework? Give me two. I learn what I need when I need it.' :
-                   i === 2 ? 'I build for now with tomorrow in mind. No over-engineering, no under-engineering, just right.' :
-                   i === 3 ? 'Ideas are cheap. Execution is everything. I build, test, launch and iterate. No analysis paralysis.' :
-                   'I explain complex concepts in plain terms. No jargon unless it actually matters.'}
-                </p>
+            <div class="skill-constellation" transition:scale={{ start: 0.9, duration: 500, delay: 600, easing: backOut }}>
+              <div class="flex justify-between items-center mb-3">
+                <span class="text-indigo-100 font-medium">🧩 Problem Creating</span>
+                <span class="text-xs text-indigo-300 bg-indigo-900/40 px-2 py-1 rounded-full">
+                  Master Level
+                </span>
               </div>
-            {/each}
+              <p class="text-indigo-200/70 text-sm">
+                Making two new bugs while fixing one. It's called job security.
+              </p>
+            </div>
+            
+            <div class="skill-constellation" transition:scale={{ start: 0.9, duration: 500, delay: 750, easing: backOut }}>
+              <div class="flex justify-between items-center mb-3">
+                <span class="text-indigo-100 font-medium">🔄 Adaptability</span>
+                <span class="text-xs text-indigo-300 bg-indigo-900/40 px-2 py-1 rounded-full">
+                  Expert Level
+                </span>
+              </div>
+              <p class="text-indigo-200/70 text-sm">
+                Seamlessly switching between "I know what I'm doing" and "What am I doing?" multiple times per hour.
+              </p>
+            </div>
+            
+            <div class="skill-constellation" transition:scale={{ start: 0.9, duration: 500, delay: 900, easing: backOut }}>
+              <div class="flex justify-between items-center mb-3">
+                <span class="text-indigo-100 font-medium">🔭 Technical Vision</span>
+                <span class="text-xs text-indigo-300 bg-indigo-900/40 px-2 py-1 rounded-full">
+                  Guru Level
+                </span>
+              </div>
+              <p class="text-indigo-200/70 text-sm">
+                Predicting which part of my code will break next with surprising accuracy.
+              </p>
+            </div>
+            
+            <div class="skill-constellation" transition:scale={{ start: 0.9, duration: 500, delay: 1050, easing: backOut }}>
+              <div class="flex justify-between items-center mb-3">
+                <span class="text-indigo-100 font-medium">💡 Prompt Engineering</span>
+                <span class="text-xs text-indigo-300 bg-indigo-900/40 px-2 py-1 rounded-full">
+                  Wizard Level
+                </span>
+              </div>
+              <p class="text-indigo-200/70 text-sm">
+                Expertly explaining to AI what I want, then claiming I wrote it myself.
+              </p>
+            </div>
+            
+            <div class="skill-constellation" transition:scale={{ start: 0.9, duration: 500, delay: 1200, easing: backOut }}>
+              <div class="flex justify-between items-center mb-3">
+                <span class="text-indigo-100 font-medium">📢 Communication</span>
+                <span class="text-xs text-indigo-300 bg-indigo-900/40 px-2 py-1 rounded-full">
+                  Pro Level
+                </span>
+              </div>
+              <p class="text-indigo-200/70 text-sm">
+                Nodding confidently while thinking "I have no idea what they're talking about."
+              </p>
+            </div>
           </div>
         </div>
       {/if}
@@ -1528,7 +1570,7 @@
           <div class="section-overlay p-6" transition:scale={{ start: 0.95, duration: 500, delay: 1000, easing: backOut }}>
             <h3 class="text-xl font-semibold mb-4 text-indigo-200">Startup Ideas?</h3>
             <p class="text-indigo-100/80 mb-4">
-              If you've got something worth building, I might be interested. No coffee chats, just solid ideas.
+              If you've got something worth building, I might be interested. No introductory calls, just solid ideas.
             </p>
             <div class="space-y-4">
               <p class="text-indigo-200/70 flex items-center">
