@@ -2,7 +2,7 @@
   // Reactive state using Svelte 5 syntax
   let { name, title, location } = $state({
     name: "Dlovan",
-    title: "AI-Augmented Web Developer",
+    title: "Web Developer",
     location: "Stockholm, Sweden"
   });
   
@@ -82,44 +82,51 @@
     {
       name: "JavaScript",
       icon: "devicon-javascript-plain",
-      description: "The bread & butter of web dev. My trusty sidekick.",
+      description: "My bread & butter. Does the job and doesn't complain much.",
       startYear: 2021,
       level: "advanced"
     },
     {
       name: "Firebase",
       icon: "devicon-firebase-plain",
-      description: "Powerful backend-as-a-service for rapid development and scalable applications.",
+      description: "Backend without the headache. Let Google handle the boring stuff.",
       startYear: 2024,
       level: "intermediate"
     },
     {
       name: "Tailwind CSS",
       icon: "devicon-tailwindcss-plain",
-      description: "CSS, but make it actually enjoyable to write.",
+      description: "CSS that actually makes sense. No more spaghetti stylesheets.",
       startYear: 2024,
       level: "intermediate"
     },
     {
       name: "Svelte/SvelteKit",
       icon: "devicon-svelte-plain",
-      description: "The new cool kid on the block that's actually really impressive.",
+      description: "The framework other frameworks wish they were. Simple, fast, no drama.",
       startYear: 2024,
       level: "advanced"
     },
     {
       name: "Node.js",
       icon: "devicon-nodejs-plain-wordmark colored",
-      description: "Powering my servers since forever. Old reliable.",
+      description: "It's just JavaScript on the server. Nothing magical, just useful.",
       startYear: 2021,
       level: "intermediate"
     },
     {
       name: "Python",
       icon: "devicon-python-plain",
-      description: "Versatile language for data processing, automation, and backend development.",
+      description: "For when I need to process data without writing an essay of code.",
       startYear: 2023,
       level: "intermediate"
+    },
+    {
+      name: "Go",
+      icon: "devicon-go-original-wordmark colored",
+      description: "Fast as lightning, but so is my JavaScript when I write it right.",
+      startYear: 2025,
+      level: "beginner"
     }
   ];
   
@@ -127,7 +134,7 @@
     {
       name: "React",
       icon: "devicon-react-original",
-      description: "Explored for frontend development but switched to Svelte for its simplicity.",
+      description: "Too much ceremony for simple tasks. Left it behind for Svelte's simplicity.",
       startYear: 2023,
       endYear: 2023,
       level: "beginner"
@@ -135,7 +142,7 @@
     {
       name: "Next.js",
       icon: "devicon-nextjs-original-wordmark colored",
-      description: "Experimented with this React framework before moving to SvelteKit.",
+      description: "Tried it. Cool, but not worth the complexity tax for what I build.",
       startYear: 2023,
       endYear: 2023,
       level: "beginner"
@@ -143,23 +150,15 @@
     {
       name: "TypeScript",
       icon: "devicon-typescript-plain",
-      description: "Great for type safety, but sticking with vanilla JS for now. TypeScript is for n00bs anyway.",
+      description: "I get it, but vanilla JS works fine for me. TS is training wheels I don't need.",
       startYear: 2024,
       endYear: 2024,
       level: "beginner"
     },
     {
-      name: "Go",
-      icon: "devicon-go-original-wordmark colored",
-      description: "Brief exploration of this powerful language for backend development and microservices.",
-      startYear: 2025,
-      endYear: 2025,
-      level: "beginner"
-    },
-    {
       name: "Java",
       icon: "devicon-java-plain",
-      description: "Explored for backend development and Android applications.",
+      description: "Life's too short for verbose syntax and enterprise complexity.",
       startYear: 2024,
       endYear: 2024,
       level: "beginner"
@@ -167,7 +166,7 @@
     {
       name: "Kotlin/Jetpack Compose",
       icon: "devicon-kotlin-plain",
-      description: "Explored for Android development, but focusing on web now.",
+      description: "Decent for Android, but decided to stick with web. More reach, less hassle.",
       startYear: 2024,
       endYear: 2024,
       level: "beginner"
@@ -175,7 +174,7 @@
     {
       name: "Swift/SwiftUI",
       icon: "devicon-swift-plain",
-      description: "Dabbled in iOS development before returning to web.",
+      description: "Good for Apple stuff. Apple takes 30%. I prefer taking 100%.",
       startYear: 2024,
       endYear: 2024,
       level: "intermediate"
@@ -183,7 +182,7 @@
     {
       name: "Express",
       icon: "devicon-express-original",
-      description: "Served me well for backend development before moving on.",
+      description: "Used it, but outgrew it. Nothing wrong with it, just moved on.",
       startYear: 2022,
       endYear: 2024,
       level: "intermediate"
@@ -191,7 +190,7 @@
     {
       name: "Web Components",
       icon: "fas fa-screwdriver-wrench",
-      description: "Explored native component architecture before embracing frameworks.",
+      description: "Nice idea in theory. Pain in practice. Frameworks exist for a reason.",
       startYear: 2023,
       endYear: 2023,
       level: "intermediate"
@@ -199,7 +198,7 @@
     {
       name: "MongoDB/Mongoose",
       icon: "devicon-mongodb-plain",
-      description: "Used for document-based storage before exploring other options.",
+      description: "Documents are neat until they're not. Moved to more structured data.",
       startYear: 2022,
       endYear: 2024,
       level: "intermediate"
@@ -207,7 +206,7 @@
     {
       name: "PostgreSQL",
       icon: "devicon-postgresql-plain",
-      description: "Briefly used for relational data needs.",
+      description: "Solid database, but Firebase handles my current needs without the setup.",
       startYear: 2024,
       endYear: 2024,
       level: "beginner"
@@ -218,8 +217,8 @@
   const projects = [
     {
       title: "Vevra",
-      shortDescription: "Community building platform centered around missions that push users to take action.",
-      longDescription: "Vevra is a mission-driven community platform that encourages users to take meaningful action towards shared goals. The platform features activities tracking, live chat functionality, and hierarchical project management tools that help communities organize and execute their missions effectively. By focusing on actionable steps, Vevra transforms passive community members into active contributors.",
+      shortDescription: "Community platform that actually gets people to do stuff instead of just talking.",
+      longDescription: "Vevra turns passive community members into people who take action. No more endless discussions without results. The platform tracks activities, provides live chat, and organizes projects hierarchically so communities can actually achieve goals instead of just talking about them.",
       technologies: ["SvelteKit", "Node.js", "Firebase", "TailwindCSS"],
       image: "/vevra.png",
       productUrl: "https://vevra.onrender.com",
@@ -227,8 +226,8 @@
     },
     {
       title: "Alentra",
-      shortDescription: "AI-powered job platform matching employees and employers based on qualitative data analysis.",
-      longDescription: "Alentra is an innovative job platform that uses artificial intelligence to match potential employees with employers. The AI analyzes qualitative data from both parties to determine match degree, going beyond traditional keyword matching to create more meaningful connections in the job market.",
+      shortDescription: "AI job matching that doesn't suck. No more keyword stuffing resumes.",
+      longDescription: "Alentra uses AI to match people with jobs based on what actually matters, not keyword density. Built it because most job platforms are stuck in 2005, using the same broken matching algorithms that waste everyone's time. Recruiters might want to update their LinkedIn profiles... just kidding, we're making their jobs easier. Maybe.",
       technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS"],
       productUrl: "https://www.alentra.app",
       image: "/alentra.png",
@@ -236,8 +235,8 @@
     },
     {
       title: "Axentra",
-      shortDescription: "Web agency specializing in rapid MVP development for Swedish startups.",
-      longDescription: "Axentra is my web agency tailored specifically for startups in Sweden looking for rapid MVP development. We focus on helping early-stage companies validate their ideas quickly with functional prototypes and scalable web applications, providing the technical expertise needed to bring innovative concepts to market.",
+      shortDescription: "My web agency. We build MVPs fast without the typical agency nonsense.",
+      longDescription: "Axentra is my agency for Swedish startups that need MVPs without the fluff. No lengthy discovery phases or endless meetings. We figure out what needs to be built and build it. Simple as that.",
       technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS"],
       githubUrl: "https://github.com/dlovans/axentra",
       productUrl: "https://www.axentra.agency",
@@ -245,16 +244,16 @@
     },
     {
       title: "TerraTide",
-      shortDescription: "iOS app for casual and spontaneous meetups - 'Meetup on steroids'.",
-      longDescription: "TerraTide is an iOS application designed to be 'Meetup on steroids', facilitating casual and spontaneous gatherings. The app makes it easier for people to connect in real-time for activities, removing the barriers of traditional event planning and enabling more organic social interactions.",
+      shortDescription: "iOS app for meetups that aren't lame. Spontaneous gatherings, zero commitment.",
+      longDescription: "TerraTide makes it easy to find people to hang out with right now. No planning weeks in advance or dealing with flaky people. Just open the app, see what's happening nearby, and show up if you want.",
       technologies: ["Swift", "SwiftUI", "Firebase", "CoreLocation"],
       productUrl: "https://www.terratide.app",
       image: "/terratide.png"
     },
     {
       title: "Salsabeel",
-      shortDescription: "Religious web app for studying verses through topic creation, collection, and analysis.",
-      longDescription: "Salsabeel is a religious web application that facilitates the study of verses by allowing users to create topics, collect relevant verses, and analyze them. This structured approach helps users gain deeper insights into religious texts by organizing content thematically and enabling comparative study.",
+      shortDescription: "Religious app for studying verses without the outdated UI most religious apps have.",
+      longDescription: "Salsabeel organizes religious verses by topic so you can actually study them in context. Most religious apps look terrible. This one doesn't. Simple, clean, and functional.",
       technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Python"],
       githubUrl: "https://github.com/dlovans/sirius",
       productUrl: "https://www.salsabeel.app",
@@ -262,8 +261,8 @@
     },
     {
       title: "Aquity",
-      shortDescription: "Paused web app project using LLM AI to analyze stocks for long-term investment decisions.",
-      longDescription: "Aquity is an indefinitely paused web application that was designed to leverage Large Language Model AI to analyze stocks and provide data to users for making long-term investment decisions. The concept aimed to democratize sophisticated financial analysis, making it accessible to individual investors.",
+      shortDescription: "Stock analysis tool using LLMs. On pause because the market's a mess anyway.",
+      longDescription: "Aquity was supposed to use AI to analyze stocks for long-term investment. Paused indefinitely because, let's face it, the stock market has its own problems. Might come back to it when I feel like gambling my time again.",
       technologies: ["EJS", "JavaScript", "Node.js", "Express", "MongoDB", "Mongoose", "CSS"],
       githubUrl: "https://github.com/dlovans/quant",
       productUrl: "https://aquity.onrender.com",
@@ -1040,7 +1039,7 @@
       <div class="max-w-2xl text-center lg:text-left">
         <div class="inline-block mb-4 px-4 py-1 rounded-full bg-indigo-900/30 border border-indigo-500/30">
           <p class="text-sm text-indigo-300 pop-in" style="animation-delay: 0.2s">
-            <span class="mr-2">👋</span> Hello, digital world!
+            <span class="mr-2">👋</span> Yeah, I build stuff
           </p>
         </div>
         <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 animated-gradient-text pop-in" style="animation-delay: 0.4s">
@@ -1050,8 +1049,7 @@
           <p class="text-xl md:text-2xl text-indigo-200 pop-in" style="animation-delay: 0.6s">{title}</p>
         </div>
         <p class="text-lg text-indigo-100/80 max-w-xl mx-auto lg:mx-0 mb-6 slide-up" style="animation-delay: 0.8s">
-          Crafting elegant digital solutions with a calm, analytical approach.
-          Balancing technical expertise with entrepreneurial vision.
+          I make web stuff that works. Clean code, minimal nonsense. If it breaks, I'll fix it. If it doesn't — then I did my job right.
         </p>
         
         <div class="mb-8 slide-up" style="animation-delay: 1s">
@@ -1072,7 +1070,7 @@
           </a>
           <a href="#contact" class="px-8 py-4 bg-transparent text-white rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#0f172a] border border-indigo-500/50 hover:border-indigo-400 hover:bg-indigo-950/50 glowing-btn">
             <span class="flex items-center">
-              <span>Get in Touch</span>
+              <span>Connect</span>
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -1123,11 +1121,11 @@
       </div>
       <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
         <div class="text-3xl font-bold text-white mb-1">{projects.length}+</div>
-        <div class="text-indigo-200/70 text-sm">Projects Completed</div>
+        <div class="text-indigo-200/70 text-sm">Projects Shipped</div>
       </div>
       <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
         <div class="text-3xl font-bold text-white mb-1">{activeTools.length + graveyardTools.length}+</div>
-        <div class="text-indigo-200/70 text-sm">Technologies</div>
+        <div class="text-indigo-200/70 text-sm">Tech I've Touched</div>
       </div>
     </div>
   </div>
@@ -1198,10 +1196,10 @@
       <div class="max-w-3xl mx-auto text-center tech-header mb-12" transition:fly={{ y: 30, duration: 800, delay: 200 }}>
         <p class="text-sm font-medium text-indigo-400 mb-2 uppercase tracking-wider">My Toolbox</p>
         <h2 class="text-3xl md:text-4xl font-bold mb-4 animated-gradient-text">
-          <span class="tech-section-highlight">Tech I Work With</span>
+          <span class="tech-section-highlight">Tech I Actually Use</span>
         </h2>
         <p class="text-indigo-100/70 max-w-2xl mx-auto">
-          The digital tools I've mastered over the years, with a focus on what powers my current projects.
+          Not what looks good on resumes. These are the tools I reach for when work needs to get done.
         </p>
       </div>
     
@@ -1210,7 +1208,7 @@
         <div class="flex items-center justify-center md:justify-start mb-10">
           <h3 class="text-2xl font-semibold tech-section-title inline-flex items-center">
             <span class="text-green-400 mr-2">●</span> 
-            <span class="animated-gradient-text">Active Arsenal</span>
+            <span class="animated-gradient-text">Daily Drivers</span>
           </h3>
         </div>
       
@@ -1248,7 +1246,7 @@
           <div class="flex items-center">
             <span class="text-gray-500 mr-2">○</span> 
             <span class="text-gray-300 font-semibold">The Tool Graveyard</span>
-            <span class="ml-2 text-sm text-gray-400">(RIP, old friends)</span>
+            <span class="ml-2 text-sm text-gray-400">(Tools I've tried and ditched)</span>
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               class="h-5 w-5 ml-3 text-gray-400 toggle-icon {isGraveyardExpanded ? 'expanded' : ''}" 
@@ -1336,12 +1334,12 @@
     <!-- Section Header -->
     {#if projectsVisible}
       <div class="max-w-3xl mx-auto text-center tech-header mb-16" transition:fly={{ y: 30, duration: 800, delay: 200 }}>
-        <p class="text-sm font-medium text-indigo-400 mb-2 uppercase tracking-wider">Showcasing My Work</p>
+        <p class="text-sm font-medium text-indigo-400 mb-2 uppercase tracking-wider">Stuff I Made</p>
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
-          <span class="tech-section-highlight">Featured Projects</span>
+          <span class="tech-section-highlight">Projects Worth Mentioning</span>
         </h2>
         <p class="text-indigo-100/70 max-w-2xl mx-auto">
-          A collection of my best work, demonstrating problem-solving skills and technical expertise
+          Built on my terms, with purpose. No portfolio fillers here.
         </p>
       </div>
 
@@ -1397,18 +1395,17 @@
         <div transition:fly={{ y: 30, duration: 800, delay: 200 }}>
           <h2 class="text-3xl md:text-4xl font-bold mb-8 animated-gradient-text">About Me</h2>
           <p class="text-indigo-100/80 mb-6 leading-relaxed">
-            Since 2022, I've been navigating the intersection of AI and web development, 
-            creating solutions that blend technical excellence with practical business value.
+            Been writing code since 2022. Not trying to impress anyone with how long I've been doing this — 
+            quality over seniority. I build things that work, not things that look good on GitHub.
           </p>
           <p class="text-indigo-100/80 mb-6 leading-relaxed">
-            Based in {location}, I run a web agency while exploring various startup ideas. 
-            My approach combines calm analysis with swift adaptation, allowing me to find elegant 
-            solutions to complex problems.
+            Based in {location}, running a web agency and launching projects when I feel like it. 
+            I don't overthink or over-engineer. Just identify the problem and solve it efficiently.
           </p>
           <p class="text-indigo-100/80 mb-6 leading-relaxed">
-            I believe in observing before acting, listening before speaking, and understanding 
-            before implementing. This philosophy guides both my personal interactions and 
-            professional work.
+            I don't waste time trying to prove I'm the smartest person in the room. 
+            I listen more than I talk. If your idea is better than mine, I'll use it.
+            Simple as that.
           </p>
           
           <div class="mt-8 pt-6 border-t border-indigo-800/20">
@@ -1423,8 +1420,12 @@
           
           <div class="flex items-center mt-8">
             <div class="mr-4 h-1 w-12 bg-gradient-to-r from-indigo-500 to-purple-500"></div>
-            <p class="text-indigo-200/70 italic">"Finding order in chaos, solutions in problems."</p>
+            <p class="text-indigo-200/70 italic">"Simple solutions to complex problems. No nonsense included."</p>
           </div>
+          
+          <p class="text-xs text-indigo-300/50 mt-12 italic">
+            BTW: HR is just corporate cops with worse outfits.
+          </p>
         </div>
         
         <div class="section-overlay p-8" transition:fly={{ y: 40, duration: 800, delay: 400 }}>
@@ -1436,15 +1437,15 @@
                 <div class="flex justify-between items-center mb-3">
                   <span class="text-indigo-100 font-medium">{skill}</span>
                   <span class="text-xs text-indigo-300 bg-indigo-900/40 px-2 py-1 rounded-full">
-                    {i === 0 ? 'Superpower' : i === 1 ? 'Quick Learner' : i === 2 ? 'Architect' : i === 3 ? 'Innovator' : 'Bridge Builder'}
+                    {i === 0 ? 'I make it work' : i === 1 ? 'I figure it out' : i === 2 ? 'I see the path' : i === 3 ? 'I ship it' : 'I keep it simple'}
                   </span>
                 </div>
                 <p class="text-indigo-200/70 text-sm">
-                  {i === 0 ? 'Finding elegant solutions to complex challenges through analytical thinking and creative approaches.' : 
-                   i === 1 ? 'Embracing change and pivoting strategies when needed, always staying ahead of the technology curve.' :
-                   i === 2 ? 'Building systems with scalability and maintainability in mind, focusing on long-term success.' :
-                   i === 3 ? 'Identifying opportunities and creating value through innovative solutions and strategic thinking.' :
-                   'Translating complex technical concepts into clear language that resonates with diverse audiences.'}
+                  {i === 0 ? 'I don\'t overcomplicate things. Find the issue, fix it, move on. No need for a dissertation on every bug.' : 
+                   i === 1 ? 'New tech? Give me a day. New framework? Give me two. I learn what I need when I need it.' :
+                   i === 2 ? 'I build for now with tomorrow in mind. No over-engineering, no under-engineering, just right.' :
+                   i === 3 ? 'Ideas are cheap. Execution is everything. I build, test, launch and iterate. No analysis paralysis.' :
+                   'I explain complex concepts in plain terms. No jargon unless it actually matters.'}
                 </p>
               </div>
             {/each}
@@ -1481,7 +1482,7 @@
       <div class="max-w-3xl mx-auto text-center mb-16" transition:fly={{ y: 30, duration: 800, delay: 200 }}>
         <h2 class="text-3xl md:text-4xl font-bold mb-6 animated-gradient-text">Get in Touch</h2>
         <p class="text-indigo-100/70 max-w-2xl mx-auto">
-          Interested in working together? Feel free to reach out through the form below.
+          Got something interesting? Hit me up. Not into spam or "quick calls to discuss opportunities."
         </p>
       </div>
       
@@ -1525,9 +1526,9 @@
           </div>
           
           <div class="section-overlay p-6" transition:scale={{ start: 0.95, duration: 500, delay: 1000, easing: backOut }}>
-            <h3 class="text-xl font-semibold mb-4 text-indigo-200">Startup Ventures</h3>
+            <h3 class="text-xl font-semibold mb-4 text-indigo-200">Startup Ideas?</h3>
             <p class="text-indigo-100/80 mb-4">
-              Interested in starting a venture together? Let's build something amazing!
+              If you've got something worth building, I might be interested. No coffee chats, just solid ideas.
             </p>
             <div class="space-y-4">
               <p class="text-indigo-200/70 flex items-center">
@@ -1655,7 +1656,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex flex-col md:flex-row justify-between items-center">
       <p class="text-indigo-200/50 mb-4 md:mb-0">© {new Date().getFullYear()} {name}. All rights reserved.</p>
-      <p class="text-indigo-200/50 text-sm">Designed with purpose. Built with precision.</p>
+      <p class="text-indigo-200/50 text-sm">Built with just enough care to make it work well.</p>
     </div>
   </div>
 </footer>

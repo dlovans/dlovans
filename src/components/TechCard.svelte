@@ -16,7 +16,7 @@
   // Calculate years of experience
   let yearsOfExperience = $derived(isActive 
     ? currentYear - startYear 
-    : (endYear || currentYear) - startYear);
+    : (endYear || currentYear) - startYear + 1);
   
   // Handle endYear for retired tools
   let finalEndYear = $state(endYear);
