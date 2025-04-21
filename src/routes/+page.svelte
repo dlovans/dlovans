@@ -216,6 +216,16 @@
   // Projects data
   const projects = [
     {
+      title: "Believers United",
+      shortDescription: "Believers United is a community platform designed for Quran-only believers, fostering meaningful connections and discussions in a space built on shared faith and values.",
+      longDescription: "Believers United is a community-building platform created for Quran-only believers to connect, share, and grow together in their faith. With a focus on authentic discussion and support, the platform offers a space for members to engage with one another, participate in activities, and collaborate on projects that align with their values. Designed with simplicity and clarity, Believers United encourages learning and unity, all while maintaining a space free from sectarian influence.",
+      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Resend API"],
+      githubUrl: "",
+      productUrl: "https://bu-5ncm.onrender.com/",
+      image: "/bu.png",
+      isWip: false
+    },
+    {
       title: "Vevra",
       shortDescription: "Community platform that actually gets people to do stuff instead of just talking.",
       longDescription: "Vevra turns passive community members into people who take action. No more endless discussions without results. The platform tracks activities, provides live chat, and organizes projects hierarchically so communities can actually achieve goals instead of just talking about them.",
@@ -252,8 +262,8 @@
     },
     {
       title: "Salsabeel",
-      shortDescription: "Religious app for studying verses without the outdated UI most religious apps have.",
-      longDescription: "Salsabeel organizes religious verses by topic so you can actually study them in context. Most religious apps look terrible. This one doesn't. Simple, clean, and functional.",
+      shortDescription: "Salsabeel is a faith-driven app that helps you study Quranic verses with clarity and context, offering a clean, intuitive interface.",
+      longDescription: "Salsabeel is a religious app designed to help you study Quranic verses in a meaningful way. Unlike many outdated or cluttered religious apps, it offers a clean, straightforward interface focused on providing context and clarity. By organizing verses by topic, Salsabeel allows for a deeper and more accessible exploration of the Quran, making it easier to understand and reflect on its teachings.",
       technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Python"],
       githubUrl: "https://github.com/dlovans/sirius",
       productUrl: "https://www.salsabeel.app",
@@ -428,6 +438,9 @@
       background-color: var(--main-bg-color);
       color: #f8fafc;
       overflow-x: hidden;
+      width: 100%;
+      max-width: 100vw;
+      position: relative;
     }
     
     /* New animations for tech section */
@@ -463,6 +476,9 @@
     .section-container {
       position: relative;
       z-index: 1;
+      width: 100%;
+      box-sizing: border-box;
+      overflow-x: hidden;
     }
     
     .section-overlay {
@@ -1008,7 +1024,7 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="min-h-screen w-full overflow-hidden relative py-8 flex flex-col justify-center items-center">
+<section class="min-h-screen w-full overflow-x-hidden relative py-8 flex flex-col justify-center items-center">
   <div class="absolute inset-0 bg-[var(--main-bg-color)] z-0"></div>
   
   <!-- Grid background -->
@@ -1034,7 +1050,7 @@
   <div class="hero-decoration hero-decoration-3"></div>
   <div class="hero-decoration hero-decoration-4"></div>
   
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 box-border overflow-x-hidden">
     <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
       <div class="max-w-2xl text-center lg:text-left">
         <div class="inline-block mb-4 px-4 py-1 rounded-full bg-indigo-900/30 border border-indigo-500/30">
@@ -1148,7 +1164,7 @@
   }}
 >
   <!-- Enhanced background elements -->
-  <div class="absolute inset-0 overflow-hidden">
+  <div class="absolute inset-0 overflow-hidden max-w-full">
     <div class="absolute w-full h-full opacity-10">
       <div class="absolute -top-40 -right-40 w-80 h-80 bg-indigo-600/30 rounded-full filter blur-3xl"></div>
       <div class="absolute bottom-20 left-10 w-72 h-72 bg-purple-600/20 rounded-full filter blur-3xl"></div>
@@ -1192,7 +1208,7 @@
     </div>
   {/if}
   
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 box-border overflow-x-hidden">
     {#if techSectionVisible}
       <div class="max-w-3xl mx-auto text-center tech-header mb-12" transition:fly={{ y: 30, duration: 800, delay: 200 }}>
         <p class="text-sm font-medium text-indigo-400 mb-2 uppercase tracking-wider">My Digital Weapons</p>
@@ -1299,7 +1315,7 @@
   }}
 >
   <!-- Enhanced background elements to match tech section -->
-  <div class="absolute inset-0 overflow-hidden">
+  <div class="absolute inset-0 overflow-hidden max-w-full">
     <div class="absolute w-full h-full opacity-10">
       <div class="absolute -top-40 -right-40 w-80 h-80 bg-indigo-600/30 rounded-full filter blur-3xl"></div>
       <div class="absolute bottom-20 left-10 w-72 h-72 bg-purple-600/20 rounded-full filter blur-3xl"></div>
@@ -1331,7 +1347,7 @@
     </div>
   </div>
   
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 box-border overflow-x-hidden">
     <!-- Section Header -->
     {#if projectsVisible}
       <div class="max-w-3xl mx-auto text-center tech-header mb-16" transition:fly={{ y: 30, duration: 800, delay: 200 }}>
@@ -1383,14 +1399,14 @@
   }}
 >
   <!-- Subtle background elements -->
-  <div class="absolute inset-0 overflow-hidden">
+  <div class="absolute inset-0 overflow-hidden max-w-full">
     <div class="absolute w-full h-full opacity-10">
       <div class="absolute -left-20 top-40 w-72 h-72 bg-indigo-600/30 rounded-full filter blur-3xl"></div>
       <div class="absolute right-10 bottom-10 w-64 h-64 bg-purple-600/20 rounded-full filter blur-3xl"></div>
     </div>
   </div>
   
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 box-border overflow-x-hidden">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
       {#if aboutVisible}
         <div transition:fly={{ y: 30, duration: 800, delay: 200 }}>
@@ -1512,14 +1528,14 @@
   }}
 >
   <!-- Subtle background elements -->
-  <div class="absolute inset-0 overflow-hidden">
+  <div class="absolute inset-0 overflow-hidden max-w-full">
     <div class="absolute w-full h-full opacity-10">
       <div class="absolute -right-20 -top-20 w-96 h-96 bg-indigo-600/20 rounded-full filter blur-3xl"></div>
       <div class="absolute left-40 bottom-0 w-80 h-80 bg-purple-600/20 rounded-full filter blur-3xl"></div>
     </div>
   </div>
   
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 box-border overflow-x-hidden">
     {#if contactVisible}
       <div class="max-w-3xl mx-auto text-center mb-16" transition:fly={{ y: 30, duration: 800, delay: 200 }}>
         <h2 class="text-3xl md:text-4xl font-bold mb-6 animated-gradient-text">Get in Touch</h2>
