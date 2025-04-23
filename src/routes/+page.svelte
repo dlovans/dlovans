@@ -257,7 +257,7 @@
       shortDescription: "iOS app for meetups that aren't lame. Spontaneous gatherings, zero commitment.",
       longDescription: "TerraTide makes it easy to find people to hang out with right now. No planning weeks in advance or dealing with flaky people. Just open the app, see what's happening nearby, and show up if you want.",
       technologies: ["Swift", "SwiftUI", "Firebase", "CoreLocation"],
-      productUrl: "https://www.terratide.app",
+      githubUrl: "https://github.com/dlovans/terratide",
       image: "/terratide.png"
     },
     {
