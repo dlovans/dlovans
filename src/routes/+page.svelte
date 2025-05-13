@@ -216,14 +216,22 @@
   // Projects data
   const projects = [
     {
-      title: "Believers United",
-      shortDescription: "Believers United is a community platform designed for Quran-only believers, fostering meaningful connections and discussions in a space built on shared faith and values.",
-      longDescription: "Believers United is a community-building platform created for Quran-only believers to connect, share, and grow together in their faith. With a focus on authentic discussion and support, the platform offers a space for members to engage with one another, participate in activities, and collaborate on projects that align with their values. Designed with simplicity and clarity, Believers United encourages learning and unity, all while maintaining a space free from sectarian influence.",
-      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Resend API"],
-      githubUrl: "",
-      productUrl: "https://bu-5ncm.onrender.com/",
-      image: "/bu.png",
-      isWip: false
+      title: "ThinkStep",
+      shortDescription: "AI agents without the headaches. Because even robots deserve a simpler life.",
+      longDescription: "ThinkStep is what happens when you're tired of wiring up AI agents the hard way. I built this because apparently 'simple' and 'AI infrastructure' don't belong in the same sentence elsewhere. It's an Agent-as-Layer API that handles all the boring stuff so you can focus on making your AI actually do something useful. Built on OpenAI's API because reinventing that wheel would be masochistic. Coming soon, once I convince the agents to stop arguing with each other.",
+      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Go"],
+      image: "/thinkstep.png",
+      productUrl: "https://thinkstep.onrender.com",
+      isWip: true
+    },
+    {
+      title: "Alentra",
+      shortDescription: "AI job matching that doesn't suck. No more keyword stuffing resumes.",
+      longDescription: "Alentra uses AI to match people with jobs based on what actually matters, not keyword density. Built it because most job platforms are stuck in 2005, using the same broken matching algorithms that waste everyone's time. Recruiters might want to update their LinkedIn profiles... just kidding, we're making their jobs easier. Maybe.",
+      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS"],
+      productUrl: "https://www.alentra.app",
+      image: "/alentra.png",
+      isWip: true
     },
     {
       title: "Vevra",
@@ -235,13 +243,14 @@
       isWip: true
     },
     {
-      title: "Alentra",
-      shortDescription: "AI job matching that doesn't suck. No more keyword stuffing resumes.",
-      longDescription: "Alentra uses AI to match people with jobs based on what actually matters, not keyword density. Built it because most job platforms are stuck in 2005, using the same broken matching algorithms that waste everyone's time. Recruiters might want to update their LinkedIn profiles... just kidding, we're making their jobs easier. Maybe.",
-      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS"],
-      productUrl: "https://www.alentra.app",
-      image: "/alentra.png",
-      isWip: true
+      title: "Believers United",
+      shortDescription: "Believers United is a community platform designed for Quran-only believers, fostering meaningful connections and discussions in a space built on shared faith and values.",
+      longDescription: "Believers United is a community-building platform created for Quran-only believers to connect, share, and grow together in their faith. With a focus on authentic discussion and support, the platform offers a space for members to engage with one another, participate in activities, and collaborate on projects that align with their values. Designed with simplicity and clarity, Believers United encourages learning and unity, all while maintaining a space free from sectarian influence.",
+      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Resend API"],
+      githubUrl: "",
+      productUrl: "https://bu-5ncm.onrender.com/",
+      image: "/bu.png",
+      isWip: false
     },
     {
       title: "Axentra",
