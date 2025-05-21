@@ -72,7 +72,7 @@ My superpower is turning ideas into code while maintaining a straight face when 
   </table>
 </div>
 
-## 📫 Get in Touch (If You Dare)
+## 📫 Get in Touch
 
 Want to discuss the existential crisis of semicolons in JavaScript? I'm your person!
 
