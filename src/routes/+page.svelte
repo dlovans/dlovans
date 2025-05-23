@@ -216,15 +216,6 @@
   // Projects data
   const projects = [
     {
-      title: "ThinkStep",
-      shortDescription: "AI agents without the headaches. Because even robots deserve a simpler life.",
-      longDescription: "ThinkStep is what happens when you're tired of wiring up AI agents the hard way. I built this because apparently 'simple' and 'AI infrastructure' don't belong in the same sentence elsewhere. It's an Agent-as-Layer API that handles all the boring stuff so you can focus on making your AI actually do something useful. Built on OpenAI's API because reinventing that wheel would be masochistic. Coming soon, once I convince the agents to stop arguing with each other.",
-      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Go"],
-      image: "/thinkstep.png",
-      productUrl: "https://thinkstep.onrender.com",
-      isWip: true
-    },
-    {
       title: "Alentra",
       shortDescription: "AI job matching that doesn't suck. No more keyword stuffing resumes.",
       longDescription: "Alentra uses AI to match people with jobs based on what actually matters, not keyword density. Built it because most job platforms are stuck in 2005, using the same broken matching algorithms that waste everyone's time. Recruiters might want to update their LinkedIn profiles... just kidding, we're making their jobs easier. Maybe.",
@@ -234,13 +225,31 @@
       isWip: true
     },
     {
+      title: "Trendifi",
+      shortDescription: "AI-powered deep insight generator API with customizable data structure.",
+      longDescription: "Trendifi uses AI to generate deep insights from fresh data sources. Planned platform too. Coming soon.",
+      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS"],
+      image: "/trendifi.png",
+      productUrl: "https://www.trendifi.app/",
+      isWip: true
+    },
+    {
       title: "Vevra",
       shortDescription: "Community platform that actually gets people to do stuff instead of just talking.",
       longDescription: "Vevra turns passive community members into people who take action. No more endless discussions without results. The platform tracks activities, provides live chat, and organizes projects hierarchically so communities can actually achieve goals instead of just talking about them.",
       technologies: ["SvelteKit", "Node.js", "Firebase", "TailwindCSS"],
       image: "/vevra.png",
-      productUrl: "https://vevra.onrender.com",
+      productUrl: "https://www.vevra.app/",
       isWip: true
+    },
+    {
+      title: "ThinkStep",
+      shortDescription: "AI agents without the headaches. Because even robots deserve a simpler life.",
+      longDescription: "ThinkStep is what happens when you're tired of wiring up AI agents the hard way. I built this because apparently 'simple' and 'AI infrastructure' don't belong in the same sentence elsewhere. It's an Agent-as-Layer API that handles all the boring stuff so you can focus on making your AI actually do something useful. Built on OpenAI's API because reinventing that wheel would be masochistic. Coming soon, once I convince the agents to stop arguing with each other.",
+      technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Go"],
+      image: "/thinkstep.png",
+      productUrl: "thinkstep-proxy-production.up.railway.app",
+      isWip: false
     },
     {
       title: "Believers United",
@@ -248,7 +257,7 @@
       longDescription: "Believers United is a community-building platform created for Quran-only believers to connect, share, and grow together in their faith. With a focus on authentic discussion and support, the platform offers a space for members to engage with one another, participate in activities, and collaborate on projects that align with their values. Designed with simplicity and clarity, Believers United encourages learning and unity, all while maintaining a space free from sectarian influence.",
       technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Resend API"],
       githubUrl: "",
-      productUrl: "https://bu-5ncm.onrender.com/",
+      productUrl: "https://bu-production-762f.up.railway.app/",
       image: "/bu.png",
       isWip: false
     },
@@ -275,7 +284,6 @@
       longDescription: "Salsabeel is a religious app designed to help you study Quranic verses in a meaningful way. Unlike many outdated or cluttered religious apps, it offers a clean, straightforward interface focused on providing context and clarity. By organizing verses by topic, Salsabeel allows for a deeper and more accessible exploration of the Quran, making it easier to understand and reflect on its teachings.",
       technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Python"],
       githubUrl: "https://github.com/dlovans/sirius",
-      productUrl: "https://www.salsabeel.app",
       image: "/salsabeel.png"
     },
     {
@@ -284,7 +292,6 @@
       longDescription: "Aquity was supposed to use AI to analyze stocks for long-term investment. Paused indefinitely because, let's face it, the stock market has its own problems. Might come back to it when I feel like gambling my time again.",
       technologies: ["EJS", "JavaScript", "Node.js", "Express", "MongoDB", "Mongoose", "CSS"],
       githubUrl: "https://github.com/dlovans/quant",
-      productUrl: "https://aquity.onrender.com",
       image: "/aquity.png"
     }
   ];
