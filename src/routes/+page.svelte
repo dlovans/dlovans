@@ -245,7 +245,7 @@
     {
       title: "ThinkStep",
       shortDescription: "AI agents without the headaches. Because even robots deserve a simpler life.",
-      longDescription: "ThinkStep is what happens when you're tired of wiring up AI agents the hard way. I built this because apparently 'simple' and 'AI infrastructure' don't belong in the same sentence elsewhere. It's an Agent-as-Layer API that handles all the boring stuff so you can focus on making your AI actually do something useful. Built on OpenAI's API because reinventing that wheel would be masochistic. Coming soon, once I convince the agents to stop arguing with each other.",
+      longDescription: "ThinkStep is what happens when you're tired of wiring up AI agents the hard way. I built this because apparently 'simple' and 'AI infrastructure' don't belong in the same sentence elsewhere. It's an Agent-as-Layer API that handles all the boring stuff so you can focus on making your AI actually do something useful. Built on OpenAI's API because reinventing that wheel would be masochistic. Production ready. Actively seeking external funding.",
       technologies: ["Svelte", "Node.js", "Firebase", "Tailwind CSS", "Go"],
       image: "/thinkstep.png",
       productUrl: "thinkstep-proxy-production.up.railway.app",
