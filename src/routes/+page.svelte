@@ -106,25 +106,25 @@
         // Tech stack data with added startYear
         const activeTools = [
     {
+      name: "Rust",
+      icon: "devicon-rust-plain",
+      description: "Memory safety without garbage collection. Still learning the borrow checker's mood swings.",
+      startYear: 2025,
+      level: "beginner"
+    },
+    {
+      name: "Go",
+      icon: "devicon-go-original-wordmark colored",
+      description: "Fast as lightning, but so is my JavaScript when I write it right.",
+      startYear: 2025,
+      level: "intermediate"
+    },
+    {
       name: "JavaScript",
       icon: "devicon-javascript-plain",
       description: "My bread & butter. Does the job and doesn't complain much.",
       startYear: 2021,
       level: "advanced"
-    },
-    {
-      name: "Firebase",
-      icon: "devicon-firebase-plain",
-      description: "Backend without the headache. Let Google handle the boring stuff.",
-      startYear: 2024,
-      level: "intermediate"
-    },
-    {
-      name: "Tailwind CSS",
-      icon: "devicon-tailwindcss-plain",
-      description: "CSS that actually makes sense. No more spaghetti stylesheets.",
-      startYear: 2024,
-      level: "intermediate"
     },
     {
       name: "Svelte/SvelteKit",
@@ -134,25 +134,25 @@
       level: "advanced"
     },
     {
+      name: "Tailwind CSS",
+      icon: "devicon-tailwindcss-plain",
+      description: "CSS that actually makes sense. No more spaghetti stylesheets.",
+      startYear: 2024,
+      level: "intermediate"
+    },
+    {
+      name: "MongoDB/Mongoose",
+      icon: "devicon-mongodb-plain",
+      description: "Documents are neat and flexible. Back to NoSQL for the win.",
+      startYear: 2022,
+      level: "intermediate"
+    },
+    {
       name: "Node.js",
       icon: "devicon-nodejs-plain-wordmark colored",
       description: "It's just JavaScript on the server. Nothing magical, just useful.",
       startYear: 2021,
       level: "intermediate"
-    },
-    {
-      name: "Python",
-      icon: "devicon-python-plain",
-      description: "For when I need to process data without writing an essay of code.",
-      startYear: 2023,
-      level: "intermediate"
-    },
-    {
-      name: "Go",
-      icon: "devicon-go-original-wordmark colored",
-      description: "Fast as lightning, but so is my JavaScript when I write it right.",
-      startYear: 2025,
-      level: "beginner"
     }
   ];
   
@@ -222,11 +222,11 @@
       level: "intermediate"
     },
     {
-      name: "MongoDB/Mongoose",
-      icon: "devicon-mongodb-plain",
-      description: "Documents are neat until they're not. Moved to more structured data.",
-      startYear: 2022,
-      endYear: 2024,
+      name: "Firebase",
+      icon: "devicon-firebase-plain",
+      description: "Backend without the headache. Let Google handle the boring stuff. Moved back to MongoDB.",
+      startYear: 2024,
+      endYear: 2025,
       level: "intermediate"
     },
     {
@@ -236,6 +236,14 @@
       startYear: 2024,
       endYear: 2024,
       level: "beginner"
+    },
+    {
+      name: "Python",
+      icon: "devicon-python-plain",
+      description: "For when I need to process data without writing an essay of code. Moved on to other tools.",
+      startYear: 2023,
+      endYear: 2025,
+      level: "intermediate"
     }
   ];
 </script>
@@ -246,22 +254,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <!-- Enhanced SEO Meta Tags -->
-  <meta name="description" content="Portfolio of {name}, an AI-augmented web developer based in {location} specializing in full-stack development, AI integration, and startup ventures.">
-  <meta name="keywords" content="web developer, AI integration, full-stack development, startup ventures, {location}, portfolio, JavaScript, Svelte, Firebase, Node.js">
+  <meta name="description" content="Portfolio of {name}, a systems/backend developer based in {location} specializing in scalable architecture, API development, and database optimization.">
+  <meta name="keywords" content="systems developer, backend developer, API development, database optimization, scalable architecture, {location}, portfolio, JavaScript, Svelte, MongoDB, Node.js">
   <meta name="author" content="{name}">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dlovan.dev/">
   <meta property="og:title" content="{name} | {title}">
-  <meta property="og:description" content="Portfolio of {name}, an AI-augmented web developer based in {location} specializing in full-stack development, AI integration, and startup ventures.">
+  <meta property="og:description" content="Portfolio of {name}, a systems/backend developer based in {location} specializing in scalable architecture, API development, and database optimization.">
   <meta property="og:image" content="/og-image.svg">
   
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://dlovan.dev/">
   <meta property="twitter:title" content="{name} | {title}">
-  <meta property="twitter:description" content="Portfolio of {name}, an AI-augmented web developer based in {location} specializing in full-stack development, AI integration, and startup ventures.">
+  <meta property="twitter:description" content="Portfolio of {name}, a systems/backend developer based in {location} specializing in scalable architecture, API development, and database optimization.">
   <meta property="twitter:image" content="/og-image.svg">
   
   <!-- Canonical URL -->

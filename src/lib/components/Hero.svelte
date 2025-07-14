@@ -169,14 +169,14 @@
           </div>
           <p class="text-lg text-indigo-100/80 max-w-xl mx-auto lg:mx-0 mb-6 slide-up" style="animation-delay: 0.8s">
             I turn ideas into code and occasionally convince computers to do what I want. 
-            When I'm not fighting with CSS, I'm explaining to clients why their "small change" will take a week.
+            When I'm not optimizing database queries, I'm explaining to clients why their "simple API change" will take a week.
           </p>
           
           <div class="mb-8 slide-up" style="animation-delay: 1s">
-            <a href="#projects" class="badge"><span class="mr-2">🚀</span> Keyboard Smashing</a>
-            <a href="#contact" class="badge"><span class="mr-2">🤖</span> AI Prompt Engineering</a>
+            <a href="#projects" class="badge"><span class="mr-2">⚙️</span> Systems Architecture</a>
+            <a href="#contact" class="badge"><span class="mr-2">🗄️</span> Backend Development</a>
+            <a href="#about" class="badge"><span class="mr-2">🚁</span> Drone Software</a>
             <a href="#about" class="badge"><span class="mr-2">⚡</span> Error Message Reading</a>
-            <a href="#about" class="badge"><span class="mr-2">💼</span> Professional Excuse-Making</a>
           </div>
           
           <div class="flex flex-wrap justify-center lg:justify-start gap-6 slide-up" style="animation-delay: 1.2s">
@@ -237,7 +237,7 @@
       <!-- Stats -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 lg:mt-24 mb-6 relative z-10 slide-up" style="animation-delay: 1.6s">
         <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
-          <div class="text-3xl font-bold text-white mb-1">{new Date().getFullYear() - 2022}+</div>
+          <div class="text-3xl font-bold text-white mb-1">4+</div>
           <div class="text-indigo-200/70 text-sm">Years of Pretending</div>
         </div>
         <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
@@ -246,7 +246,7 @@
         </div>
         <div class="bg-indigo-900/20 backdrop-blur-sm rounded-xl p-4 border border-indigo-500/10 text-center">
           <div class="text-3xl font-bold text-white mb-1">{activeTools.length + graveyardTools.length}+</div>
-          <div class="text-indigo-200/70 text-sm">Tools I've Prompt-Engineered</div>
+          <div class="text-indigo-200/70 text-sm">Tools I've Actually Mastered</div>
         </div>
       </div>
     </div>

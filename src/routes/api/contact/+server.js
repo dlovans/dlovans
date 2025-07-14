@@ -59,7 +59,7 @@ export async function POST({ request }) {
         
         Best regards,
         Dlovan
-        AI-Augmented Web Developer
+        Systems/Backend Developer
         Stockholm, Sweden
       `,
       html: getConfirmationEmailTemplate(name, message)
@@ -200,7 +200,7 @@ function getConfirmationEmailTemplate(name, message) {
           <div class="signature">
             <p>
               <strong>Dlovan</strong><br>
-              AI-Augmented Web Developer<br>
+              Systems/Backend Developer<br>
               Stockholm, Sweden
             </p>
           </div>

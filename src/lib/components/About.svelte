@@ -76,17 +76,17 @@
             I build MVPs faster than you can say "scope creep" and occasionally launch projects when the stars align.
           </p>
           <p class="text-indigo-300 mb-6 leading-relaxed">
-            My AI assistant writes 90% of my code while I take all the credit. I've mastered the art of 
-            crafting perfect prompts and convincing myself I fully understand what the generated code does.
+            I focus on systems architecture and backend development, letting AI handle frontend styling when needed. 
+            I've learned to leverage tools strategically while maintaining full control over core logic.
           </p>
           
           <div class="mt-8 pt-6 border-t border-indigo-800/20">
-            <h4 class="text-lg font-medium text-indigo-300 mb-3">Current Distractions</h4>
+            <h4 class="text-lg font-medium text-indigo-300 mb-3">Current Obsessions</h4>
             <div class="flex flex-wrap gap-2">
-              <div class="px-3 py-1.5 rounded-full bg-indigo-900/30 text-indigo-300 border border-indigo-500/20 text-sm"><span class="mr-2">🤖</span> Teaching AI to Do My Job</div>
-              <div class="px-3 py-1.5 rounded-full bg-indigo-900/30 text-indigo-300 border border-indigo-500/20 text-sm"><span class="mr-2">⚡</span> Making Slow Sites Less Slow</div>
-              <div class="px-3 py-1.5 rounded-full bg-indigo-900/30 text-indigo-300 border border-indigo-500/20 text-sm"><span class="mr-2">☁️</span> Moving Stuff to "The Cloud"</div>
-              <div class="px-3 py-1.5 rounded-full bg-indigo-900/30 text-indigo-300 border border-indigo-500/20 text-sm"><span class="mr-2">💼</span> Pretending to Be an Entrepreneur</div>
+              <div class="px-3 py-1.5 rounded-full bg-indigo-900/30 text-indigo-300 border border-indigo-500/20 text-sm"><span class="mr-2">🚁</span> Drone Software</div>
+              <div class="px-3 py-1.5 rounded-full bg-indigo-900/30 text-indigo-300 border border-indigo-500/20 text-sm"><span class="mr-2">🦀</span> Rust Programming</div>
+              <div class="px-3 py-1.5 rounded-full bg-indigo-900/30 text-indigo-300 border border-indigo-500/20 text-sm"><span class="mr-2">🏛️</span> Sovereignty Platforms</div>
+              <div class="px-3 py-1.5 rounded-full bg-indigo-900/30 text-indigo-300 border border-indigo-500/20 text-sm"><span class="mr-2">⚡</span> Systems Programming</div>
             </div>
           </div>
           
@@ -142,13 +142,13 @@
             
             <div class="skill-constellation bg-indigo-900/30 p-4 rounded-lg border border-indigo-500/10" transition:scale={{ start: 0.9, duration: 500, delay: 1050, easing: backOut }}>
               <div class="flex justify-between items-center mb-3">
-                <span class="text-indigo-300 font-medium">💡 Prompt Engineering</span>
+                <span class="text-indigo-300 font-medium">⚡ Database Optimization</span>
                 <span class="text-xs text-indigo-300 bg-indigo-900/40 px-2 py-1 rounded-full">
                   Wizard Level
                 </span>
               </div>
               <p class="text-indigo-300 text-sm">
-                Expertly explaining to AI what I want, then claiming I wrote it myself.
+                Building scalable backend systems that actually work in production.
               </p>
             </div>
             

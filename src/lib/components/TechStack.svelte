@@ -185,7 +185,7 @@
           <span class="tech-section-highlight">Tech I Pretend to Understand</span>
         </h2>
         <p class="text-indigo-100/70 max-w-2xl mx-auto">
-          Documentation? Who reads that? These are the tools I use after asking AI to explain them to me.
+          Documentation? Who reads that? These are the tools I use to build systems that actually scale.
         </p>
       </div>
     
